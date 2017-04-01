@@ -119,6 +119,8 @@ footer hr {
     top: 530px;
     font-size: 1.5em;
   }
+
+
 }
 
 
@@ -129,7 +131,8 @@ footer hr {
   width:92%;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 50px;
+  /*padding-top: 50px;*/
+  padding-top: 10px;
 }
 .container-home {
   max-width: 50em;
@@ -139,7 +142,8 @@ footer hr {
   padding-top: 25px;
 }
 .experience{
-  padding-top: 50px;
+  /*padding-top: 50px;*/
+  padding-top: 10px;
 }
 
 .row {
@@ -245,7 +249,7 @@ footer hr {
   text-align: center;
   margin: auto;
   width: 100%;
-  position: fixed;
+  /*position: fixed;*/
   padding: 20px;
 }
 
@@ -293,7 +297,7 @@ a{
 }
 
 .contact{
-  padding-top: 10px;
+  /*padding-top: 10px;*/
   font-family: "Lato", sans-serif;
   line-height: 1.5;
   margin-bottom: 0;
