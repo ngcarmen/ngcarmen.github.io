@@ -321,12 +321,7 @@ a{
 
 .logo-icons li{
   display: inline;
-  padding: 0px 10px 0px 10px;
   margin: auto;
-  font-weight: bold;
-  font-size: 18px;
-  font-family: "Lato", sans-serif;
-  color: black;
 }
 
 .logo-icons img{
