@@ -1,0 +1,310 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+ 
+body {
+  font: 100% sans-serif;
+  margin: 0em;
+  background-color: #fff;
+  color: #666;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+a {
+  color: #3d6dbe;
+  text-decoration: none;
+}
+
+a:focus,
+a:hover {
+  color: #6594e0;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.5;
+  margin-top: 0em;
+}
+
+img {
+  max-width: 100%;
+  padding: 30px 30px 30px 30px;
+}
+
+hr {
+  border-top: 1px solid #ccc;
+  border-bottom: none;
+  margin-top: 3em;
+  margin-bottom: 2em;
+}
+
+header {
+  background-color: #999;
+  background-image: url(img/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 2em;
+  text-align: center;
+  height: 350px;
+}
+
+
+header h1 {
+  color: white;
+  font-size: 2em;
+  margin: 0;
+  letter-spacing: 1px;
+  opacity: 10;
+  text-shadow: 0 3px 0 rgba(0,0,0, 0.5);
+  top: 370px;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+}
+
+header p {
+  color: #fff;
+  font-size: 1.1em;
+  opacity: .9;
+  top: 360px;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+}
+
+section h1 {
+  font-size: 1.8em;
+  line-height: 1em;
+  margin-bottom: .6em;
+}
+
+/* Same font-size and line-height as p element */
+section ul li, section ol li {
+  font-size: 1em;
+  margin-left: -10px;
+  line-height: 1.8;
+}
+
+footer {
+  margin-bottom: 1em;
+  color: #888;
+}
+
+footer hr {
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.center {
+  text-align: center;
+}
+
+@media screen and (min-width: 50em) {
+  header {
+    height: 400px;
+  }
+  
+  header h1 {
+    font-size: 3.2em;
+    top: 540px;
+  }
+  
+  header p {
+    top: 530px;
+    font-size: 1.5em;
+  }
+}
+
+
+/* ------------------- Grid -------------------*/
+
+.container {
+  max-width: 50em;
+  width:92%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 50px;
+}
+.container-home {
+  max-width: 50em;
+  width:92%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 25px;
+}
+.experience{
+  padding-top: 50px;
+}
+
+.row {
+  clear: both;
+  margin-right: -1%;
+  margin-left:  -1%;
+  height: 50%;
+}
+
+.row:before,
+.row:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.row:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ */
+.row {
+  *zoom: 1;
+}
+
+
+.grid-2,
+.grid-4{
+  float: left;
+  width:100%;
+  padding: 0% 1%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid-4{
+  padding-right: 10%;
+}
+
+@media screen and (min-width: 40em) {
+  .grid-2 { width: 33.3333333%; }
+  .grid-4 { width: 66.6666666%; }
+}
+
+
+/* Experience */
+.experience [class*="row"] {
+  border-bottom: dotted 1px #ccc;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.experience h2 {
+  margin-bottom: 0;
+}
+
+.experience h2, .experience p {
+  text-align: center;
+}
+
+.experience [class*="row"]:last-of-type {
+  border: none;
+}
+
+.experience [class*="grid-2"]{
+  padding-left: 10%;
+}
+
+@media screen and (min-width: 40em) {
+  .experience h2, .experience p {
+    text-align: left;
+  }
+}
+
+.experience {
+  font-family: "Lato", sans-serif;
+  line-height: 1.5;
+  margin-bottom: 0;
+  margin: 0 auto;
+}
+
+/* Education Block */
+.education, .expertise, .certifications {
+  font-family: "Lato", sans-serif;
+  line-height: 1.5;
+  margin-bottom: 0;
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+@media screen and (min-width: 40em) {
+  .education {
+    width: 70%;
+  }
+}
+/* navbar */
+
+
+.navbar{
+  background: white;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  position: fixed;
+  padding: 20px;
+}
+
+.navbar li{
+  display: inline;
+  padding: 0px 10px 0px 10px;
+  margin: auto;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  color: black;
+}
+
+a{
+  color:black;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
+
+.quote{
+  font-style: italic;
+  font-size: 1.5em;
+}
+
+.navbar-home{
+  background: white;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  padding: 5px;
+}
+
+.navbar-home li{
+  display: inline;
+  padding: 0px 10px 0px 10px;
+  margin: auto;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  color: black;
+}
+
+.contact{
+  padding-top: 10px;
+  font-family: "Lato", sans-serif;
+  line-height: 1.5;
+  margin-bottom: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.resume{
+  font-family: "Lato", sans-serif;
+  line-height: 1.0;
+  margin-bottom: 0;
+  margin: 0 auto;
+  text-align: center;
+}
