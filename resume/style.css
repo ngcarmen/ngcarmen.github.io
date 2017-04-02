@@ -52,7 +52,7 @@ header {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
   text-align: center;
   height: 350px;
 }
@@ -63,16 +63,17 @@ header h1 {
   margin: 0;
   letter-spacing: 1px;
   opacity: 10;
-  top: 370px;
+  /*top: 370px;*/
   font-weight: 800;
   font-family: "Lato", sans-serif;
+  text-transform: uppercase;
 }
 
 header p {
   color: black;
   font-size: 1.1em;
   opacity: .9;
-  top: 360px;
+  /*top: 360px;*/
   font-family: "Lato", sans-serif;
   text-align: center;
 }
@@ -135,7 +136,7 @@ footer hr {
   width:92%;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 25px;
+  padding-top: 10px;
 }
 .experience{
  padding-top: 60px;
@@ -253,7 +254,7 @@ footer hr {
   margin: auto;
   width: 100%;
   position: fixed;
-  padding: 20px;
+  padding: 10px;
 }
 
 .navbar li{
@@ -264,6 +265,7 @@ footer hr {
   font-size: 18px;
   font-family: "Lato", sans-serif;
   color: black;
+  line-height: 2;
 }
 
 a{
@@ -286,7 +288,7 @@ a{
   text-align: center;
   margin: auto;
   width: 100%;
-  padding: 5px;
+  padding: 3px;
 }
 
 .navbar-home li{
@@ -297,6 +299,7 @@ a{
   font-size: 18px;
   font-family: "Lato", sans-serif;
   color: black;
+  line-height: 2;
 }
 
 .contact{
