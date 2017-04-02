@@ -206,7 +206,8 @@ footer hr {
 }
 
 .experience [class*="grid-2"]{
-  padding-left: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 @media screen and (min-width: 40em) {
