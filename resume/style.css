@@ -43,8 +43,6 @@ hr {
 }
 
 header {
-  /*background-color: #999;
-  background-image: url(img/background.jpg);*/
   background-color: #D9ECEC;
   background-repeat: no-repeat;
   background-position: center center;
@@ -106,21 +104,6 @@ footer hr {
   text-align: center;
 }
 
-/*@media screen and (min-width: 50em) {
-  header {
-    height: 400px;
-  }
-  
-  header h1 {
-    font-size: 3.2em;
-    top: 540px;
-  }
-  
-  header p {
-    top: 530px;
-    font-size: 1.5em;
-  }
-}*/
 /* ------------------- Grid -------------------*/
 
 .container {
@@ -128,18 +111,7 @@ footer hr {
   width:92%;
   margin-right: auto;
   margin-left: auto;
-  /*padding-top: 50px;*/
   padding-top: 10px;
-}
-.container-home {
-  max-width: 50em;
-  width:92%;
-  margin-right: auto;
-  margin-left: auto;
-  padding-top: 10px;
-}
-.experience{
- padding-top: 60px;
 }
 
 .row {
@@ -180,17 +152,15 @@ footer hr {
   padding-right: 10%;
 }
 
-@media screen and (min-width: 40em) {
-  .grid-2 { width: 33.3333333%; }
-  .grid-4 { width: 66.6666666%; }
-}
-
-
 /* Experience */
 .experience [class*="row"] {
   border-bottom: dotted 1px #ccc;
   padding-top: 1em;
   padding-bottom: 1em;
+}
+
+.experience{
+ padding-top: 60px;
 }
 
 .experience h2 {
@@ -210,15 +180,6 @@ footer hr {
   padding-right: 5%;
 }
 
-@media screen and (min-width: 40em) {
-  .experience h2, .experience p {
-    text-align: left;
-  }
-  .experience{padding-top: 50px;}
-  .contact{padding-top: 50px;}
-  .expertise{padding-top: 50px;}
-}
-
 .experience {
   font-family: "Lato", sans-serif;
   line-height: 1.5;
@@ -227,7 +188,6 @@ footer hr {
   padding-top: 75px;
 }
 
-/* Education Block */
 .education, .expertise, .certifications {
   font-family: "Lato", sans-serif;
   line-height: 1.5;
@@ -236,18 +196,9 @@ footer hr {
   margin: 0 auto;
 }
 
-.education{
+.education, .expertise{
   padding-top: 75px;
 }
-
-
-@media screen and (min-width: 40em) {
-  .education {
-    width: 70%;
-  }
-}
-/* navbar */
-
 
 .navbar{
   background: #D9ECEC;
@@ -312,7 +263,7 @@ a{
   text-align: center;
 }
 
-.resume{
+.on-the-web, .resume{
   font-family: "Lato", sans-serif;
   line-height: 1.0;
   margin-bottom: 0;
@@ -339,6 +290,10 @@ a{
   display:inline;
 }
 
-.expertise{
-  padding-top: 75px;
+@media screen and (min-width: 40em) {
+  .experience h2, .experience p {text-align: left;}
+  .experience, .contact, .expertise {padding-top: 50px;}
+  .education {width: 70%;}
+  .grid-2 { width: 33.3333333%; }
+  .grid-4 { width: 66.6666666%; }
 }
