@@ -42,7 +42,11 @@ hr {
   margin-bottom: 2em;
 }
 
-header {
+.top{
+  position: fixed;
+}
+
+.header {
   background-color: #D9ECEC;
   background-repeat: no-repeat;
   background-position: center center;
@@ -50,12 +54,12 @@ header {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  margin-bottom: 1em;
   text-align: center;
-  height: 350px;
+  height: 430px;
+  padding-top: 75px;
 }
 
-header h1 {
+.header h1 {
   color: black;
   font-size: 2em;
   margin: 0;
@@ -67,10 +71,10 @@ header h1 {
   text-transform: uppercase;
 }
 
-header p {
+.header p {
   color: black;
   font-size: 1.1em;
-  opacity: .9;
+  opacity: 10;
   /*top: 360px;*/
   font-family: "Lato", sans-serif;
   text-align: center;
@@ -231,16 +235,18 @@ a{
 }
 
 .quote{
+  font-style: bold;
   font-style: italic;
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 .navbar-home{
-  background: white;
+  background: #D9ECEC;
   text-align: center;
   margin: auto;
   width: 100%;
   padding: 3px;
+  position: fixed;
 }
 
 .navbar-home li{
@@ -296,4 +302,5 @@ a{
   .education {width: 70%;}
   .grid-2 { width: 33.3333333%; }
   .grid-4 { width: 66.6666666%; }
+  .header {padding-top: 40px; height: 390px;}
 }
