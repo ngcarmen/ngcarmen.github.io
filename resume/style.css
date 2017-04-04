@@ -153,7 +153,7 @@ footer hr {
 }
 
 .grid-4{
-  padding-right: 10%;
+  padding-right: 5%;
 }
 
 /* Experience */
@@ -301,7 +301,7 @@ a{
   .experience h2, .experience p {text-align: left;}
   .experience, .contact, .expertise {padding-top: 50px;}
   .education {width: 70%;}
-  .grid-2 { width: 33.3333333%; }
-  .grid-4 { width: 66.6666666%; }
+  .grid-2 { width: 33.3333333%;}
+  .grid-4 { width: 66.6666666%;}
   .header {padding-top: 50px; height: 390px;}
 }
