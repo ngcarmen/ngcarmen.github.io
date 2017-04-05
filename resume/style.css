@@ -220,6 +220,8 @@ footer hr {
   font-family: "Lato", sans-serif;
   color: black;
   line-height: 2;
+  letter-spacing: 1.3px;
+  text-transform: lowercase;
 }
 
 a{
@@ -257,6 +259,8 @@ a{
   font-family: "Lato", sans-serif;
   color: black;
   line-height: 2;
+  letter-spacing: 1.3px;
+  text-transform: lowercase;
 }
 
 .logo-icons{
@@ -283,7 +287,7 @@ a{
   text-align: center;
   margin: auto;
   width: 100%;
-  padding: 3px;
+  padding: 10px;
 }
 
 .contact-me li{
@@ -295,6 +299,8 @@ a{
   font-family: "Lato", sans-serif;
   color: black;
   line-height: 2;
+  letter-spacing: 1.3px;
+  text-transform: lowercase;
 }
 
 @media screen and (min-width: 40em) {
