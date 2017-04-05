@@ -94,6 +94,8 @@ footer {
   color: black;
   background-color: #D9ECEC;
   padding-bottom: 10px;
+  text-transform: lowercase;
+  letter-spacing: 1.2px;
 }
 
 footer hr {
@@ -309,6 +311,6 @@ a{
   .experience {width: 80%;}
   .grid-2 { width: 33.3333333%;}
   .grid-4 { width: 66.6666666%;}
-  .header {padding-top: 50px; height: 450px;}
+  .header {padding-top: 50px; height: 460px;}
   .education{padding-bottom: 1.5em}
 }
