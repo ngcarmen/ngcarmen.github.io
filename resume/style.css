@@ -89,6 +89,7 @@ section ul li, section ol li {
   line-height: 1.8;
 }
 
+ 
 footer {
   color: black;
   background-color: #D9ECEC;
@@ -299,8 +300,9 @@ a{
 @media screen and (min-width: 40em) {
   .experience h2, .experience p {text-align: left;}
   .experience, .contact, .expertise {padding-top: 50px;}
-  .education {width: 70%;}
+  .experience {width: 80%;}
   .grid-2 { width: 33.3333333%;}
   .grid-4 { width: 66.6666666%;}
   .header {padding-top: 50px; height: 450px;}
+  .education{padding-bottom: 1.5em}
 }
