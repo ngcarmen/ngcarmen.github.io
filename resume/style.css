@@ -327,3 +327,14 @@ a{
   .grid-4 { width: 66.6666666%;}
   .header {padding-top: 50px; height: 460px;}
 }
+
+@media screen and (min-width: 60em) {
+  .experience h2, .experience p {text-align: left;}
+  .education, .experience, .contact, .expertise {padding-top: 55px;}
+  .experience {width: 80%;}
+  .grid-2 { width: 33.3333333%;}
+  .grid-4 { width: 66.6666666%;}
+  .header {padding-top: 50px; height: 460px;}
+  .container-edu{ min-height: 100vh; display: flex; flex-direction:column;}
+  .education{flex:1;}
+}
