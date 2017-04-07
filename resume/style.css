@@ -109,15 +109,8 @@ footer hr {
 
 /* ------------------- Grid -------------------*/
 
-.container {
-  max-width: 50em;
-  width:92%;
-  margin-right: auto;
-  margin-left: auto;
-  padding-top: 10px;
-}
 
-.container-edu{
+.container{
   max-width: 50em;
   width:92%;
   margin-right: auto;
@@ -326,6 +319,8 @@ a{
   .grid-2 { width: 33.3333333%;}
   .grid-4 { width: 66.6666666%;}
   .header {padding-top: 50px; height: 460px;}
+  .container{ min-height: 100vh; display: flex; flex-direction:column;}
+  .education{flex:1;}
 }
 
 @media screen and (min-width: 60em) {
@@ -335,6 +330,6 @@ a{
   .grid-2 { width: 33.3333333%;}
   .grid-4 { width: 66.6666666%;}
   .header {padding-top: 50px; height: 460px;}
-  .container-edu{ min-height: 100vh; display: flex; flex-direction:column;}
+  .container{ min-height: 100vh; display: flex; flex-direction:column;}
   .education{flex:1;}
 }
