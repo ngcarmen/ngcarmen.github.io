@@ -117,6 +117,21 @@ footer hr {
   padding-top: 10px;
 }
 
+.container-edu{
+  max-width: 50em;
+  width:92%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 10px;
+  min-height: 90vh;
+  display: flex;
+  flex-direction:column;
+}
+
+.education{
+  flex:1;
+}
+
 .row {
   clear: both;
   margin-right: -1%;
@@ -312,5 +327,5 @@ a{
   .grid-2 { width: 33.3333333%;}
   .grid-4 { width: 66.6666666%;}
   .header {padding-top: 50px; height: 460px;}
-  .education{padding-bottom: 1.5em}
+  .education {padding-bottom: 1.5em;}
 }
