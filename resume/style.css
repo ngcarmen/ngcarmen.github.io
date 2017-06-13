@@ -203,7 +203,7 @@ footer hr {
 }
 
 .education, .expertise{
-  padding-top: 45px;
+  padding-top: 75px;
 }
 
 .navbar{
@@ -313,12 +313,4 @@ a{
   .grid-2 { width: 33.3333333%;}
   .grid-4 { width: 66.6666666%;}
   .header {padding-top: 50px; height: 460px;}
-}
 
-@media screen and (max-width: 320px) {
-  .experience h2, .experience p {text-align: left;}
-  .education, .experience, .contact, .expertise {padding-top: 100px;}
-  .experience {width: 80%;}
-  .grid-2 { width: 33.3333333%;}
-  .grid-4 { width: 66.6666666%;}
-  .header {padding-top: 100px; height: 460px;}
