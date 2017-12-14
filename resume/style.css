@@ -43,6 +43,11 @@ hr {
   margin-bottom: 2em;
 }
 
+.emoji{
+  color: #B30000;
+  font-weight: bold;
+}
+
 .header {
   background-color: #D9ECEC;
   background-repeat: no-repeat;
