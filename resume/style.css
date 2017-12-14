@@ -126,7 +126,7 @@ footer hr {
   margin-right: auto;
   margin-left: auto;
   padding-top: 10px;
-  padding-bottom: 15px;
+  padding-bottom: 20px;
 }
 
 .row {
@@ -318,7 +318,7 @@ a{
 
 @media screen and (min-width: 40em) {
   .experience h2, .experience p {text-align: left;}
-  .education, .experience, .contact, .expertise {padding-top: 55px;}
+  .education, .experience, .contact, .expertise {padding-top: 55px;padding-bottom: 10px;}
   .experience {width: 80%;}
   .grid-2 { width: 33.3333333%;}
   .grid-4 { width: 66.6666666%;}
