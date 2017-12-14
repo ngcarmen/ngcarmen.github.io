@@ -318,7 +318,7 @@ a{
 
 @media screen and (min-width: 40em) {
   .experience h2, .experience p {text-align: left;}
-  .education, .experience, .contact, .expertise {padding-top: 55px;padding-bottom: 10px;}
+  .certifications .education, .experience, .contact, .expertise {padding-top: 55px;padding-bottom: 10px;}
   .experience {width: 80%;}
   .grid-2 { width: 33.3333333%;}
   .grid-4 { width: 66.6666666%;}
