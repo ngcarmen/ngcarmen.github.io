@@ -43,6 +43,10 @@ hr {
   margin-bottom: 2em;
 }
 
+.word{
+  font-weight: bold;
+}
+
 .emoji{
   color: #B30000;
   font-weight: bold;}
