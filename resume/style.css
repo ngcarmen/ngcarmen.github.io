@@ -44,7 +44,8 @@ hr {
 }
 
 .emoji{
-  color: #B30000;}
+  color: #B30000;
+  font-weight: bold;}
 
 .header {
   background-color: #D9ECEC;
