@@ -3,15 +3,15 @@
 }
  
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin: 0em;
   background-color: #fff;
   color: #666;
 }
 
 h1, h2, h3, h4 {
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
 }
 
 a {
@@ -25,7 +25,7 @@ a:hover {
 }
 
 p {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1rem;
   line-height: 1.8;
   margin-top: 0em;
@@ -44,12 +44,12 @@ hr {
 }
 
 span.word{
-  font-weight: bold;
+  font-weight: 700;
 }
 
 span.emoji{
   color: #B30000;
-  font-weight: bold;}
+  font-weight: 700;}
 
 .header {
   background-color: #D9ECEC;
@@ -72,7 +72,7 @@ span.emoji{
   opacity: 10;
   /*top: 370px;*/
   font-weight: 800;
-  font-family: "Lato", sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
 }
 
@@ -81,7 +81,7 @@ span.emoji{
   font-size: 1.1rem;
   opacity: 10;
   /*top: 360px;*/
-  font-family: "Lato", sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
 }
 
@@ -197,7 +197,7 @@ footer hr {
 }
 
 .experience {
-  font-family: "Lato", sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 2.0;
   margin-bottom: 0;
   margin: 0 auto;
@@ -205,7 +205,7 @@ footer hr {
 }
 
 .education, .expertise, .certifications {
-  font-family: "Lato", sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 1.5;
   margin-bottom: 0;
   text-align: center;
@@ -231,7 +231,7 @@ footer hr {
   margin: auto;
   font-weight: bold;
   font-size: 18px;
-  font-family: "Lato", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: black;
   line-height: 2;
   letter-spacing: 1.3px;
@@ -269,7 +269,7 @@ a{
   margin: auto;
   font-weight: bold;
   font-size: 18px;
-  font-family: "Lato", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: black;
   line-height: 2;
   letter-spacing: 1.3px;
@@ -309,7 +309,7 @@ a{
   margin: auto;
   font-weight: bold;
   font-size: 18px;
-  font-family: "Lato", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: black;
   line-height: 2;
   letter-spacing: 1.3px;
