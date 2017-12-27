@@ -315,7 +315,8 @@ a{
 
 .column img{
   margin-top: 8px;
-  vertical-align: middle;
+  vertical-align: middle; 
+  padding: 15px 15px 15px 15px;
 }
 
 .inkling h2, h3, h4{
