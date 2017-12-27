@@ -61,7 +61,7 @@ span.emoji{
   background-size: cover;
   text-align: center;
   height: 515px;
-  padding-top: 1.5em;
+  padding-top: 115px;
 }
 
 .header h1 {
@@ -111,7 +111,7 @@ section ul li, section ol li {
   width:92%;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 2.5em;
+  padding-top: 25px;
   padding-bottom: 20px;
 }
 
@@ -156,7 +156,7 @@ section ul li, section ol li {
 /* Experience */
 .experience [class*="row"] {
   border-bottom: dotted 1px #ccc;
-  padding-top: 1.5em;
+  padding-top: 30px;
   padding-bottom: 1.5em;
 }
 
@@ -187,10 +187,10 @@ section ul li, section ol li {
   line-height: 2.0;
   margin-bottom: 0;
   margin: 0 auto;
-  padding-top:1.5em;
+  padding-top:55px;
 }
 
-.education, .expertise, .certifications .inkling{
+.education, .certifications, .inkling{
   font-family: 'Roboto', sans-serif;
   line-height: 1.5;
   margin-bottom: 0;
@@ -199,12 +199,12 @@ section ul li, section ol li {
 }
 
 .education{
-  padding-top: 1.5em;
+  padding-top: 55px;
 }
 
 
 .inkling{
-  padding-top: 3.5em;
+  padding-top: 80px;
 }
 
 .navbar{
@@ -322,9 +322,13 @@ a{
   text-align: center;
 }
 
+.certifications h2, h3{
+  text-align: center;
+}
+
 @media screen and (min-width: 40em) {
   .experience h2, .experience p {text-align: left;}
-  .certifications .education, .experience, .contact, .expertise {padding-top: 15px;}
+  .certifications .education, .experience, .contact {padding-top: 15px;}
   .column, .row1 {padding-top: 15px;}
   .column{flex: 33%; max-width: 33%; padding: 0 4px;}
   .row1{display: flex; flex-wrap: wrap; padding: 0 4px; padding-top: 15px;}
@@ -332,3 +336,4 @@ a{
   .grid-2 { width: 33.3333333%;}
   .grid-4 { width: 66.6666666%;}
   .header {padding-top: 50px; height: 460px;}
+}
