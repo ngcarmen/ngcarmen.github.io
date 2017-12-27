@@ -190,7 +190,7 @@ section ul li, section ol li {
   padding-top:100px;
 }
 
-.education, .expertise, .certifications {
+.education, .expertise, .certifications .inkling{
   font-family: 'Roboto', sans-serif;
   line-height: 1.5;
   margin-bottom: 0;
@@ -200,6 +200,10 @@ section ul li, section ol li {
 
 .education, .expertise{
   padding-top: 100px;
+}
+
+.inkling{
+  padding-top: 120px;
 }
 
 .navbar{
@@ -304,7 +308,7 @@ a{
 
 .column {
     flex: 100%;
-    max-width: 75%;
+    max-width: 100%;
     vertical-align: middle;
   }
 
