@@ -322,7 +322,7 @@ a{
 
 @media screen and (min-width: 40em) {
   .experience h2, .experience p {text-align: left;}
-  .certifications .education, .experience, .contact, .expertise, .column {padding-top: 70px;}
+  .certifications .education, .experience, .contact, .expertise, .column, .row1 {padding-top: 140px;}
   .experience {width: 80%;}
   .grid-2 { width: 33.3333333%;}
   .grid-4 { width: 66.6666666%;}
