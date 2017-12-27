@@ -97,19 +97,6 @@ section ul li, section ol li {
   margin-left: -10px;
   line-height: 1.8;
 }
- 
-/*footer {
-  color: black;
-  background-color: #D9ECEC;
-  padding-bottom: 10px;
-  text-transform: lowercase;
-  letter-spacing: 1.2px;
-}
-
-footer hr {
-  margin-top: 2em;
-  margin-bottom: 1em;
-}*/
 
 .center {
   text-align: center;
@@ -335,7 +322,7 @@ a{
 
 @media screen and (min-width: 40em) {
   .experience h2, .experience p {text-align: left;}
-  .certifications .education, .experience, .contact, .expertise {padding-top: 55px;}
+  .certifications .education, .experience, .contact, .expertise, .column {padding-top: 70px;}
   .experience {width: 80%;}
   .grid-2 { width: 33.3333333%;}
   .grid-4 { width: 66.6666666%;}
