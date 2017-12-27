@@ -111,7 +111,7 @@ section ul li, section ol li {
   width:92%;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 70px;
+  padding-top: 30px;
   padding-bottom: 20px;
 }
 
@@ -187,7 +187,7 @@ section ul li, section ol li {
   line-height: 2.0;
   margin-bottom: 0;
   margin: 0 auto;
-  padding-top:100px;
+  padding-top:140px;
 }
 
 .education, .expertise, .certifications .inkling{
@@ -199,11 +199,11 @@ section ul li, section ol li {
 }
 
 .education, .expertise{
-  padding-top: 100px;
+  padding-top: 55px;
 }
 
 .inkling{
-  padding-top: 120px;
+  padding-top: 75px;
 }
 
 .navbar{
@@ -317,10 +317,14 @@ a{
   vertical-align: middle;
 }
 
+.inkling h2, h4{
+  text-align: center;
+}
+
 @media screen and (min-width: 40em) {
   .experience h2, .experience p {text-align: left;}
-  .certifications .education, .experience, .contact, .expertise {padding-top: 55px;}
-  .column, .row1 {padding-top: 40px;}
+  .certifications .education, .experience, .contact, .expertise {padding-top: 15px;}
+  .column, .row1 {padding-top: 15px;}
   .column{flex: 33%; max-width: 33%; padding: 0 4px;}
   .row1{display: flex; flex-wrap: wrap; padding: 0 4px; padding-top: 15px;}
   .experience {width: 80%;}
