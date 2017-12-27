@@ -61,7 +61,7 @@ span.emoji{
   background-size: cover;
   text-align: center;
   height: 515px;
-  padding-top: 110px;
+  padding-top: 140px;
 }
 
 .header h1 {
@@ -111,7 +111,7 @@ section ul li, section ol li {
   width:92%;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 40px;
+  padding-top: 50px;
   padding-bottom: 20px;
 }
 
@@ -187,7 +187,7 @@ section ul li, section ol li {
   line-height: 2.0;
   margin-bottom: 0;
   margin: 0 auto;
-  padding-top: 70px;
+  padding-top:80px;
 }
 
 .education, .expertise, .certifications {
@@ -305,6 +305,7 @@ a{
 .column {
     flex: 100%;
     max-width: 75%;
+    vertical-align: middle;
   }
 
 .column img{
@@ -317,7 +318,7 @@ a{
   .certifications .education, .experience, .contact, .expertise {padding-top: 55px;}
   .column, .row1 {padding-top: 40px;}
   .column{flex: 33%; max-width: 33%; padding: 0 4px;}
-  .row1{display: flex; flex-wrap: wrap; padding: 0 4px; padding-top: 30px;}
+  .row1{display: flex; flex-wrap: wrap; padding: 0 4px; padding-top: 15px;}
   .experience {width: 80%;}
   .grid-2 { width: 33.3333333%;}
   .grid-4 { width: 66.6666666%;}
