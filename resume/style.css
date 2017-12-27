@@ -61,7 +61,7 @@ span.emoji{
   background-size: cover;
   text-align: center;
   height: 515px;
-  padding-top: 140px;
+  padding-top: 150px;
 }
 
 .header h1 {
@@ -111,7 +111,7 @@ section ul li, section ol li {
   width:92%;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 50px;
+  padding-top: 70px;
   padding-bottom: 20px;
 }
 
@@ -187,7 +187,7 @@ section ul li, section ol li {
   line-height: 2.0;
   margin-bottom: 0;
   margin: 0 auto;
-  padding-top:80px;
+  padding-top:100px;
 }
 
 .education, .expertise, .certifications {
@@ -199,7 +199,7 @@ section ul li, section ol li {
 }
 
 .education, .expertise{
-  padding-top: 75px;
+  padding-top: 100px;
 }
 
 .navbar{
