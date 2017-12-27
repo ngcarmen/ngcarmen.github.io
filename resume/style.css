@@ -281,8 +281,8 @@ a{
 }
 
 .logo-icons img{
-  height: 40%;
-  width:40%;
+  height: 45%;
+  width:45%;
   display:inline;
 }
 
@@ -320,6 +320,8 @@ a{
 
 .inkling h2, h3, h4{
   text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .certifications h2, h3{
