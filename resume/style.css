@@ -340,19 +340,4 @@ a{
   .grid-2 { width: 33.3333333%;}
   .grid-4 { width: 66.6666666%;}
   .header {padding-top: 50px; height: 460px;}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media (max-width: 800px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media (max-width: 600px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
-}
+  .column {flex: 100%; max-width: 100%;}
