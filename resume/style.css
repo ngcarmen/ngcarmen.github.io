@@ -302,18 +302,10 @@ a{
   text-transform: lowercase;
 }
 
-.row1{
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-  padding-top: 50px;
-}
-
-.column{
-  flex: 33%;
-  max-width: 33%;
-  padding: 0 4px;
-}
+.column {
+    flex: 100%;
+    max-width: 100%;
+  }
 
 .column img{
   margin-top: 8px;
@@ -322,9 +314,11 @@ a{
 
 @media screen and (min-width: 40em) {
   .experience h2, .experience p {text-align: left;}
-  .certifications .education, .experience, .contact, .expertise, .column, .row1 {padding-top: 140px;}
+  .certifications .education, .experience, .contact, .expertise {padding-top: 55px;}
+  .column, .row1 {padding-top: 40px;}
+  .column{flex: 33%; max-width: 33%; padding: 0 4px;}
+  .row1{display: flex; flex-wrap: wrap; padding: 0 4px; padding-top: 30px;}
   .experience {width: 80%;}
   .grid-2 { width: 33.3333333%;}
   .grid-4 { width: 66.6666666%;}
   .header {padding-top: 50px; height: 460px;}
-  .column {flex: 100%; max-width: 100%;}
