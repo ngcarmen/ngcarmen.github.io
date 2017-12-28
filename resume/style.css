@@ -91,8 +91,7 @@ section h1 {
   margin-bottom: .6em;
 }
 
-/* Same font-size and line-height as p element */
-section ul li, section ol li {
+section ul li{
   font-size: 1rem;
   margin-left: -10px;
   line-height: 1.8;
@@ -101,9 +100,6 @@ section ul li, section ol li {
 .center {
   text-align: center;
 }
-
-/* ------------------- Grid -------------------*/
-
 
 .container{
   max-width: 50em;
@@ -187,10 +183,10 @@ section ul li, section ol li {
   line-height: 2.0;
   margin-bottom: 0;
   margin: 0 auto;
-  padding-top:55px;
+  padding-top:60px;
 }
 
-.education, .certifications, .inkling{
+.education, .certifications, .inkling, .awards, .skills{
   font-family: 'Roboto', sans-serif;
   line-height: 1.5;
   margin-bottom: 0;
@@ -198,7 +194,7 @@ section ul li, section ol li {
   margin: 0 auto;
 }
 
-.education{
+.education, .awards, .skills{
   padding-top: 55px;
 }
 
@@ -331,10 +327,10 @@ a{
 
 @media screen and (min-width: 40em) {
   .experience h2, .experience p {text-align: left;}
-  .certifications .education, .experience, .contact {padding-top: 15px;}
-  .column, .row1 {padding-top: 15px;}
+  .certifications .education, .experience, .contact, .awards {padding-top: 15px;}
+  .column, .artgrid {padding-top: 15px;}
   .column{flex: 33%; max-width: 33%; padding: 0 4px;}
-  .row1{display: flex; flex-wrap: wrap; padding: 0 4px; padding-top: 15px;}
+  .artgrid{display: flex; flex-wrap: wrap; padding: 0 4px; padding-top: 15px;}
   .experience {width: 80%;}
   .grid-2 { width: 33.3333333%;}
   .grid-4 { width: 66.6666666%;}
