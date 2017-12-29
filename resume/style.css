@@ -266,7 +266,7 @@ a{
   text-align: center;
   margin: auto;
   width: 100%;
-  padding: 2px;
+  padding: 10px;
 }
 
 .logo-icons li{
@@ -278,6 +278,8 @@ a{
   height: 45%;
   width:45%;
   display:inline;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .contact-me{
