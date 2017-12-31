@@ -335,4 +335,5 @@ a{
   .grid-2 { width: 33.3333333%;}
   .grid-4 { width: 66.6666666%;}
   .header {padding-top: 50px; height: 460px;}
-}
+  .image{height: 75%; width: 75%;}
+  }
